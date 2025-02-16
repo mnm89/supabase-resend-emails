@@ -1,6 +1,5 @@
 import * as ProfileCreated from "@notification-emails/profile-created.tsx";
 import * as ProfileUpdated from "@notification-emails/profile-updated.tsx";
-import * as ProfileDeleted from "@notification-emails/profile-updated.tsx";
 import * as MessageSubmitted from "@notification-emails/message-submitted.tsx";
 import { TemplateMap } from "./_types.ts";
 
@@ -29,26 +28,6 @@ export const templateMap: TemplateMap<"public"> = {
             const { data: { user }, error } = await client.auth.admin
               .getUserById(
                 record.id,
-              );
-            if (error) throw new Error(error.message, { cause: error });
-            return {
-              props: {
-                old: old_record,
-                new: record,
-              },
-              to: user?.email,
-            };
-          },
-        },
-      ],
-      DELETE: [
-        {
-          template: ProfileDeleted.Email,
-          subject: ProfileDeleted.Subject,
-          prepare: async (client, record, old_record) => {
-            const { data: { user }, error } = await client.auth.admin
-              .getUserById(
-                old_record.id,
               );
             if (error) throw new Error(error.message, { cause: error });
             return {

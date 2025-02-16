@@ -7,7 +7,7 @@
     "supabase": "supabase",
     "email:dev": "email dev",
     "email:export": "email export",
-    "supabase:gen:types": "supabase gen types typescript --project-id $SUPABASE_PROJECT_REF > supabase/types.ts",
+    "supabase:gen:types": "supabase gen types typescript --schema public --project-id $SUPABASE_PROJECT_REF > supabase/types.ts",
     "supabase:deploy:auth-email-hook": "supabase functions deploy auth-email-hook --project-ref $SUPABASE_PROJECT_REF --import-map ./import-map.json --no-verify-jwt",
     "supabase:deploy:database-email-hook": "supabase functions deploy database-email-hook --project-ref $SUPABASE_PROJECT_REF --import-map ./import-map.json"
   },
