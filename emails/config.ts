@@ -3,8 +3,8 @@ export const config = {
   description:
     "A reusable code example of sending emails with resend and supabase edge functions with auth hook and database hook",
   email: "info@yourdomain.com",
-  website: "https://www.yourdomain.com",
-  domain: "yourdomain.com",
+  website: "https://supabase-resend-emails.mnmabrouk.com",
+  domain: ".mnmabrouk.com",
   phone: {
     formatted: "+1 32 238430",
     link: "tel:+132238430",
@@ -39,37 +39,37 @@ export const config = {
   links: [
     {
       image:
-        "https://cxklmrezqrjsxxczgjmk.supabase.co/storage/v1/object/public/assets//website.png",
+        "https://wfpypnchvvzushocxmkk.supabase.co/storage/v1/object/public/assets//website.png",
       alt: "website",
       url: "",
     },
     {
       image:
-        "https://cxklmrezqrjsxxczgjmk.supabase.co/storage/v1/object/public/assets//x.png",
+        "https://wfpypnchvvzushocxmkk.supabase.co/storage/v1/object/public/assets//x.png",
       alt: "twitter",
       url: "",
     },
     {
       image:
-        "https://cxklmrezqrjsxxczgjmk.supabase.co/storage/v1/object/public/assets//facebook.png",
+        "https://wfpypnchvvzushocxmkk.supabase.co/storage/v1/object/public/assets//facebook.png",
       alt: "facebook",
       url: "",
     },
     {
       image:
-        "https://cxklmrezqrjsxxczgjmk.supabase.co/storage/v1/object/public/assets//instagram.png",
+        "https://wfpypnchvvzushocxmkk.supabase.co/storage/v1/object/public/assets//instagram.png",
       alt: "instagram",
       url: "",
     },
     {
       image:
-        "https://cxklmrezqrjsxxczgjmk.supabase.co/storage/v1/object/public/assets//youtube.png",
+        "https://wfpypnchvvzushocxmkk.supabase.co/storage/v1/object/public/assets//youtube.png",
       alt: "youtube",
       url: "",
     },
     {
       image:
-        "https://cxklmrezqrjsxxczgjmk.supabase.co/storage/v1/object/public/assets//tiktok.png",
+        "https://wfpypnchvvzushocxmkk.supabase.co/storage/v1/object/public/assets//tiktok.png",
       alt: "tiktok",
       url: "",
     },
@@ -77,13 +77,13 @@ export const config = {
   stores: [
     {
       image:
-        "https://cxklmrezqrjsxxczgjmk.supabase.co/storage/v1/object/public/assets//google-play.png",
+        "https://wfpypnchvvzushocxmkk.supabase.co/storage/v1/object/public/assets//google-play.png",
       alt: "Get it on Google Play button",
       url: "",
     },
     {
       image:
-        "https://cxklmrezqrjsxxczgjmk.supabase.co/storage/v1/object/public/assets//app-store.png",
+        "https://wfpypnchvvzushocxmkk.supabase.co/storage/v1/object/public/assets//app-store.png",
       alt: "Download on the App Store button",
       url: "",
     },
