@@ -34,6 +34,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <ProgressBar />
           <div className="absolute top-4 right-4 flex gap-2">
             <ThemeToggle />
             <GithubLink />
@@ -41,8 +42,6 @@ export default function RootLayout({
           <div className="absolute top-4 left-4 max-w-screen-sm">
             <AuthListener />
           </div>
-
-          <ProgressBar />
           {children}
           <Toaster />
         </ThemeProvider>
