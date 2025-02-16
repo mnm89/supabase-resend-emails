@@ -1,0 +1,28 @@
+{
+  "name": "react-email-starter",
+  "version": "0.1.9",
+  "private": true,
+  "scripts": {
+    "email": "email",
+    "supabase": "supabase",
+    "email:dev": "email dev",
+    "email:export": "email export",
+    "supabase:gen:types": "supabase gen types typescript --project-id $SUPABASE_PROJECT_REF > supabase/types.ts",
+    "supabase:deploy:auth-email-hook": "supabase functions deploy auth-email-hook --project-ref $SUPABASE_PROJECT_REF --import-map ./import-map.json --no-verify-jwt",
+    "supabase:deploy:database-hook": "supabase functions deploy database-hook --project-ref $SUPABASE_PROJECT_REF --import-map ./import-map.json",
+    "supabase:storage:avatars": "supabase storage bucket create avatars --linked"
+  },
+  "dependencies": {
+    "@react-email/components": "0.0.33",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.0.1",
+    "@types/react-dom": "19.0.1",
+    "cross-env": "^7.0.3",
+    "react-email": "3.0.7",
+    "supabase": "^2.12.1"
+  },
+  "packageManager": "pnpm@9.4.0+sha1.9217c800d4ab947a7aee520242a7b70d64fc7638"
+}

@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "strict": true,
+        "jsx": "react-jsx",
+        "paths": {
+            "@emails-config": [
+                "emails/config.ts"
+            ],
+            "@emails-footer": [
+                "emails/shared/footer.tsx"
+            ],
+            "@emails-header": [
+                "emails/shared/header.tsx"
+            ],
+            "@emails-signature": [
+                "emails/shared/signature.tsx"
+            ],
+            "@emails-layout": [
+                "emails/shared/layout.tsx"
+            ],
+            "@supabase-types": [
+                "supabase/types.ts"
+            ],
+            "@auth-emails/*": [
+                "emails/auth/*"
+            ],
+            "@notification-emails/*": [
+                "emails/notification/*"
+            ],
+            "@/*": [
+                "./demo/*"
+            ]
+        },
+    }
+}
