@@ -10,13 +10,13 @@ For more details, check out [the documentation](./emails/readme.md).
 
 This Supabase Edge Function listens for authentication-related webhook events and sends corresponding emails using SMTP/Resend. It ensures users receive relevant notifications for authentication actions like signup, password recovery, email changes, and magic link authentication.
 
-For more details, check out [the documentation](./supabase/functions/auth-hook/readme.md).
+For more details, check out [the documentation](./supabase/functions/auth-email-hook/readme.md).
 
 ## Database Email Hook
 
 This Supabase Edge Function listens for database webhook events and sends corresponding emails using SMTP/Resend. It ensures users receive relevant notifications for actions like profile updated, message received ...etc
 
-For more details, check out [the documentation](./supabase/functions/database-hook/readme.md).
+For more details, check out [the documentation](./supabase/functions/database-email-hook/readme.md).
 
 
 ## Environment Variables
