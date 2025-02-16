@@ -5,7 +5,7 @@ import Layout from "@emails-layout";
 import { Database } from "@supabase-types";
 import Footer from "@emails-footer";
 
-export type Props = Database["public"]["Tables"]["contact_message"]["Row"];
+export type Props = Database["public"]["Tables"]["contact_messages"]["Row"];
 export const Subject = `✅ We've Received Your Message!` as const;
 export const Email = (props: Props) => (
   <Layout preview="Thank you">
@@ -37,7 +37,7 @@ export const Email = (props: Props) => (
   </Layout>
 );
 Email.PreviewProps = {
-  first_name: "Alice Joe",
+  first_name: "Alice",
   subject: "Partnership Inquiry",
   message:
     "I would love to discuss the opportunity to have a partnership and share my expertise with you",
