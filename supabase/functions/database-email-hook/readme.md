@@ -14,6 +14,8 @@ This Supabase Edge Function listens for database webhook events and sends corres
 
 After running the supabase migrations you have to go to your project dashboard and enable webhooks (under integration on side-nav menu) [https://supabase.com/dashboard/project/**Your-Project-Reference**/integrations/webhooks/overview](https://supabase.com/dashboard/project/integrations/webhooks/overview)
 
+And don't forget to add the Authorization header with your supabase service key (secret) as we enforce JWT verification.
+
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); gap: 10px;">
   <img src="../../../docs/profiles.png" alt="profiles" style="width: 100%; height: auto;"/>
   <img src="../../../docs/contact_message.png" alt="contact_message" style="width: 100%; height: auto;"/>
