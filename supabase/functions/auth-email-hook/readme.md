@@ -10,21 +10,16 @@ This Supabase Edge Function listens for authentication-related webhook events an
 - Supports both HTML and plain text emails.
 - Logs the email sending process for debugging.
 
+## Setup
 
-## Installation
-
-This function requires Deno to run. Install dependencies using:
-
-```sh
-deno cache --reload
-```
+Refer to this doc to setup your send auth email webhook [https://supabase.com/docs/guides/functions/examples/auth-send-email-hook-react-email-resend](https://supabase.com/docs/guides/functions/examples/auth-send-email-hook-react-email-resend)
 
 ## Deployment
 
 Deploy the function to your Supabase Edge Functions:
 
 ```sh
-npm run deploy:auth-email-hook
+pnpm deploy:auth-email-hook
 
 or
 
