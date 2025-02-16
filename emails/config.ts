@@ -2,9 +2,9 @@ export const config = {
   name: { full: "Supabase Resend Emails", short: "SRE" },
   description:
     "A reusable code example of sending emails with resend and supabase edge functions with auth hook and database hook",
-  email: "info@yourdomain.com",
+  email: "supposrt@mnmabrouk.com",
   website: "https://supabase-resend-emails.mnmabrouk.com",
-  domain: ".mnmabrouk.com",
+  domain: "mnmabrouk.com",
   phone: {
     formatted: "+1 32 238430",
     link: "tel:+132238430",
