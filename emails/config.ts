@@ -33,7 +33,7 @@ export const config = {
     large: "https://placehold.co/400x400.png",
   },
   images: {
-    header: "https://placehold.co/600x400.png",
+    goodby: "https://placehold.co/600x400.png",
     welcome: "https://placehold.co/600x400.png",
   },
   links: [
@@ -130,4 +130,10 @@ export function humanizeKey(key: string) {
   return key
     .replace(/_|-/g, " ") // Replace all underscores with spaces
     .replace(/\b\w/g, (char) => char.toUpperCase()); // Capitalize the first letter of each word
+}
+// Utility function to format values (e.g., JSONB fields)
+export function formatValue(value: any): string {
+  return typeof value === "object"
+    ? JSON.stringify(value, null, 2)
+    : String(value);
 }
